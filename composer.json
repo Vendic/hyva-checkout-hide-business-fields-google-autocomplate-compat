@@ -1,0 +1,19 @@
+{
+    "name": "vendic/hyva-checkout-hide-business-fields-google-autocomplate-compat",
+    "description": "Compatibility module that makes the Hyva Checkout Hide Business Fields module compatible with the Google Autocomplete module",
+    "require": {
+        "php": "~8.2",
+        "vendic/hyva-checkout-google-address-autocomplete": "^1.2",
+        "vendic/hyva-checkout-hide-business-fields": "^1.0"
+    },
+    "type": "magento2-module",
+    "license": ["MIT"],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vendic\\HyvaCheckoutHideBusinessFieldsGoogleAutocompleteCompat\\": ""
+        }
+    }
+}
