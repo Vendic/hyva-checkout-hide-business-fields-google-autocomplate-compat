@@ -7,7 +7,7 @@ This Magento 2 module ensures compatibility between the Hyva Checkout Hide Busin
 To install this module, use Composer. Run the following command in your Magento 2 root directory:
 
 ```bash
-composer require vendic/hyva-checkout-hide-business-fields-google-autocomplete-compat
+composer require vendic/hyva-checkout-hide-business-fields-google-autocomplate-compat
 ```
 
 ## Requirements
